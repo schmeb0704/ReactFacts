@@ -4,6 +4,7 @@ export default function Navbar(props) {
     return (
          <nav 
             className={props.darkMode ? "dark": ""}
+            
         >
             <img 
                 className="nav--logo_icon"
